@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    font-family: "Open Sans";
+    
+}
+         /** nav top kısmı */
+nav.nav-top {
+
+        background-image: linear-gradient(to right,rgb(236, 231, 231),rgb(185, 5, 185));
+        height: 75px;
+        
+        top: 2px;
+
+}
+nav.nav-top img{
+    width: 50px;
+    border: 1px solid rgb(167, 24, 24);
+    outline: 3px solid red;
+    outline-offset: 3px;
+    margin-top: 5px;
+    margin-left: 10px;
+   
+   
+    
+   
+
+}
+
+.sign-in {
+     float: right;
+    margin: 1.5rem;
+    color: white;
+    font-weight: 700;
+   
+}
+.sign-in a {
+   color: white;
+   text-decoration: none;
+  }
+
+  .sign-in a:hover {
+    color:black;
+    text-decoration: none;
+   }
+
+   .clearfix{
+
+        clear:both
+   }
+
+
+    /** nav maın kısmı */
+
+    /* https://css-recap.netlify.app/# */
+
+
+    nav.nav-main {
+
+        background-color: #ffaa53;
+        padding: 2rem;
+        text-align: center;
+        font-size: 1.1rem;
+        font-family: "DynaPuff", cursive;
+        font-weight: 600;
+        position: sticky;
+        top: 0;
+    }
+
+    nav.nav-main a {
+        text-decoration: none;
+        color: black;
+        margin-left: 5rem;
+
+
+    }
+
+    nav.nav-main a:hover {
+
+        color: white;
+
+    }
+
+
+    main p{
+
+        font-size: large;
+        text-align: justify;
+        padding: 1rem;
+        font-weight: 500;
+        
+        margin: 0 1rem;
+        margin-top: 1rem;
+    }
+
+/* footer {
+
+    border: 2px red solid;
+
+    width: auto ;
+    height: 4rem;
+  
+
+
+} */
+
+.anka {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    position: fixed;
+    right: 100px;
+    bottom: 40px;
+  
+
+}
+
+.anka:hover {
+
+    width: 4.3rem;
+    height: 4.3rem; 
+  
+
+}
